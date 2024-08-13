@@ -1,1 +1,36 @@
 /* Write your code here. */
+.app-container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 34px 0 36px 0;
+    width: 85%;
+}
+.image{
+    width:100%;
+}
+.heading{
+    margin: 20px 0;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e293b;
+}
+.description{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #64748b;
+    line-height: 0%;
+}
+.thumbnail-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
